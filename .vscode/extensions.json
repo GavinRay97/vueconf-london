@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "antfu.vite",
+    "johnsoncodehk.volar",
+    "antfu.iconify",
+    "graphql.vscode-graphql",
+    "esbenp.prettier-vscode",
+    "voorjaar.windicss-intellisense",
+    "csstools.postcss"
+  ]
+}

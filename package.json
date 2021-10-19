@@ -1,0 +1,45 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "vite --port 3333 --open",
+    "build": "cross-env NODE_ENV=production vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.4.16",
+    "@urql/vue": "^0.5.0",
+    "@vue/apollo-composable": "^4.0.0-alpha.15",
+    "@vueuse/core": "^6.5.3",
+    "graphql": "^15.6.1",
+    "graphql-tag": "^2.12.5",
+    "graphql-ws": "^5.5.0",
+    "pinia": "^2.0.0-rc.13",
+    "villus": "^1.0.0",
+    "vue": "^3.2.19",
+    "vue-demi": "^0.11.4",
+    "vue-router": "^4.0.11",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@divyenduz/ts-graphql-plugin": "^0.1.0",
+    "@graphql-codegen/cli": "^2.2.1",
+    "@graphql-codegen/gql-tag-operations-preset": "^1.2.0",
+    "@graphql-codegen/typescript-vue-apollo": "^3.1.6",
+    "@iconify-json/carbon": "^1.0.3",
+    "@types/node": "^16.10.2",
+    "@vitejs/plugin-vue": "^1.9.2",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.32.0",
+    "graphql-config": "4",
+    "graphql-zeus": "^3.2.7",
+    "hasura-cli": "^2.0.9",
+    "pnpm": "^6.16.0",
+    "typescript": "4.5.0-beta",
+    "unplugin-auto-import": "^0.4.10",
+    "unplugin-icons": "^0.12.3",
+    "unplugin-vue-components": "^0.15.6",
+    "vite": "^2.6.2",
+    "vite-plugin-pages": "^0.18.1",
+    "vite-plugin-windicss": "^1.4.9"
+  }
+}

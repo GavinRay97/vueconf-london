@@ -1,0 +1,17 @@
+schema: http://localhost:8060/v1/graphql
+documents:
+  - "src/**/*.ts"
+  - "src/**/*.tsx"
+  - "src/**/*.vue"
+  - "src/**/*.graphql"
+  - "!src/gql/**/*"
+generates:
+  src/gql/:
+    preset: gql-tag-operations-preset
+  src/vue-apollo-composition-api-generated.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-vue-apollo
+    config:
+      withCompositionFunctions: true

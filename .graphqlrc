@@ -1,0 +1,7 @@
+schema: http://localhost:8060/v1/graphql
+documents:
+  - "src/**/*.ts"
+  - "src/**/*.tsx"
+  - "src/**/*.vue"
+  - "src/**/*.graphql"
+  - "!src/gql/**/*"

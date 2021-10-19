@@ -1,0 +1,6 @@
+query MyQuery {
+  user {
+    id
+    name
+  }
+}
